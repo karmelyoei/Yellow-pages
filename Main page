@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>this is a simple website </title>
+    <style>
+        body {
+            margin: 0px;
+            padding: 0px;
+        }
+
+        .header {
+            height: 60px;
+            background-color: black;
+            color: white;
+        }
+
+        .header>div {
+            display: inline;
+
+        }
+
+        .logo img {
+            height: 25px;
+            width: 200px;
+            position: absolute;
+            right: 100px;
+            top: 15px;
+        }
+
+        .design {
+            text-align: center;
+            word-spacing:13px;
+            font-family: Cairo,justfiy,white,70px,
+            
+           
+
+        }
+
+        .menu>div {
+            display: inline;
+        }
+
+        .logo {
+            margin-right: 500px;
+        }
+
+        li {
+            display: inline;
+        }
+        a {
+text-decoration: none;
+}
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <div class="header">
+            <div class="logo">
+                <div class="logo">
+                    <img src="https://yellowpages.com.ps/frontend/img/logo_black.png" align="right" />
+                </div>
+                <div class="menu">
+                    <ul class="design ">
+                        <li>
+                            <a href="https://www.facebook.com/">الرئيسية</a>
+                        </li>
+                        <li>
+                            <a href="https://www.facebook.com/">الدليل</a>
+                        </li>
+                        <li>
+                            <a href="https://www.facebook.com/">المتجر</a>
+                        </li>
+                        <li>
+                            <a href="https://www.facebook.com/">الفعاليات</a>
+                        </li>
+                        <li>
+                            <a href="https://www.facebook.com/">الوظائف</a>
+                        </li>
+                        <li>
+                            <a href="https://www.facebook.com/">الاخبار</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="login-buttons">
+                    <ul class="design ">
+                        <li>
+                            <a href="https://www.facebook.com/">تسجيل الدخول</a>
+                        </li>
+                        <li>
+                            <a href="https://www.facebook.com/">مستخدم جديد</a>
+                        </li>
+                        <li>
+                            <a href="https://www.facebook.com/">English</a>
+                        </li>
+                </div>
+            </div>
+            <div class="carosel">
+
+            </div>
+            <div class="searc">
+
+            </div>
+            <div class="near-locations">
+
+            </div>
+            <div class="special-companies">
+
+            </div>
+        </div>
+</body>
+
+</html>
