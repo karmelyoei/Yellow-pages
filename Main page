@@ -30,11 +30,9 @@
 
         .design {
             text-align: center;
-            word-spacing:13px;
-            font-family: Cairo,justfiy,white,70px,
+            word-spacing:-2px;
             
-           
-
+            
         }
 
         .menu>div {
@@ -50,6 +48,32 @@
         }
         a {
 text-decoration: none;
+color:white;
+
+}
+/* mouse over link */
+a:hover {
+    color: yellow;
+}
+
+/* selected link */
+a:active {
+    color: yellow;
+}
+
+ul > li > a {
+    padding: 0 8px 15px 8px;
+
+    font-family:white,13px,
+}
+
+menu ul li a {
+    display: block;
+    line-height: 20px;
+    padding: 10px;
+    position: relative;
+    margin-bottom: 0;
+    margin: 0;
 }
     </style>
 </head>
